@@ -1,6 +1,6 @@
 import telebot
 
-bot= telebot.TeleBot('')
+bot= telebot.TeleBot('758360262:AAE5_26jwmIFsgnhw-szKik07H7aXcU2vv8')
 @bot.message_handler(commands=['start'])
 def start_message(message):
     bot.send_message(message.chat.id, 'Send me a sticker to get his ID')
